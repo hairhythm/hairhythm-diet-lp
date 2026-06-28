@@ -306,7 +306,10 @@ ul { list-style: none; }
   color: var(--color-text);
 }
 
-/* ===== ③ STORY ===== */
+/* ===== RESULTS ===== */
+.section--results { background: var(--color-white); padding: 40px 0; }
+
+/* ===== ④ STORY ===== */
 .section--story { background: var(--color-bg); }
 .story__img-wrap { margin-bottom: 32px; }
 .story-blocks { display: flex; flex-direction: column; gap: 16px; margin: 28px 0; }
