@@ -11,7 +11,7 @@
   --color-line-dark: #04a344;
   --color-text: #2c2c2c;
   --color-text-light: #666;
-  --color-bg: #fff8fb;            /* 薄いピンクホワイト */
+  --color-bg: #fdf0f3;            /* トップ画像に合わせたピンク */
   --color-bg-dark: #2a1020;       /* 濃いピンクダーク */
   --color-white: #fff;
   --color-border: #f0d0df;        /* ピンク系ボーダー */
@@ -205,7 +205,7 @@ ul { list-style: none; }
 
 /* ===== ① FV ===== */
 .fv {
-  background: linear-gradient(160deg, #fff0f5 0%, #fde8f0 50%, #fff8fb 100%);
+  background: #fdf0f3;
   color: var(--color-text);
   padding: 60px 0 0;
 }
@@ -277,7 +277,7 @@ ul { list-style: none; }
 }
 
 /* ===== ② PROBLEM ===== */
-.section--problem { background: var(--color-white); }
+.section--problem { background: var(--color-bg); }
 
 .trap-cards {
   display: flex;
@@ -307,7 +307,7 @@ ul { list-style: none; }
 }
 
 /* ===== RESULTS ===== */
-.section--results { background: var(--color-white); padding: 40px 0; }
+.section--results { background: var(--color-bg); padding: 40px 0; }
 
 /* ===== ④ STORY ===== */
 .section--story { background: var(--color-bg); }
@@ -335,7 +335,7 @@ ul { list-style: none; }
 .story-block--after .story-block__label { background: #4caf50; color: var(--color-white); }
 
 /* ===== VOICES ===== */
-.section--voices { background: var(--color-white); }
+.section--voices { background: var(--color-bg); }
 .voice-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -500,7 +500,7 @@ ul { list-style: none; }
 .gift-list li:last-child { border-bottom: none; }
 
 /* ===== ⑥ COMPARE ===== */
-.section--compare { background: var(--color-white); }
+.section--compare { background: var(--color-bg); }
 .compare-table-wrap { overflow-x: auto; margin: 24px 0; }
 .compare-table {
   width: 100%;
