@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hairhythm.github.io/hairhythm-diet-lp/sitemap.xml
